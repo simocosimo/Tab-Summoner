@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/popup.css">
+  </head>
+  <body>
+   <div id="ts-wrapper">
+    <div id="ts-header">
+      <h1>Tab Summoner</h1>
+    </div>
+    <div id="ts-containers">
+      <div class="ts-form">
+        <label for="ftitle">Title:</label><br>
+        <input type="text" id="ftitle" name="ftitle" placeholder="Reminder title..."><br><br>
+        <label for="furl">URL:</label><br>
+        <input type="url" id="furl" name="furl" placeholder="https://example.com"><br><br>
+        <label for="fdate">Date and time:</label>
+        <input type="datetime-local" id="fdate" name="fdate"><br><br>
+        <label for="fnot">Notification:</label>
+        <input type="checkbox" name="fnot" id="fnot"><br>
+      </div>
+      <p id="error-field"></p>
+      <p id="good-field"></p>
+      <div class=ts-buttons>
+        <button class="button" id="ts-reset">
+          Reset
+        </button>
+        <button class="button primary" id="ts-button">
+          Schedule Summon
+        </button>
+      </div>
+    </div>
+   </div>
+   <script src="assets/js/popup.js"></script>
+  </body>
+</html>
