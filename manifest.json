@@ -1,0 +1,17 @@
+{
+    "name": "Tab Summoner",
+    "description": "Tab Summoner is a Chrome extension that let you schedule the opening of a tab. No more streams or online events missed!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "notifications",
+        "alarms",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
